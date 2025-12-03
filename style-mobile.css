@@ -236,6 +236,10 @@
         align-items: center;
         gap: 10px;
     }
+    .footer-container-menu-bottom{
+        flex-direction: row;
+    }
+
     .footer-container-menu p{
         font-size: 14px;
         text-transform: none;
