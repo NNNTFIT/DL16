@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mountains+of+Christmas:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Michroma';
+}
+body{
+    position: relative;
+}
+.background-desktop{
+    position: absolute;
+    width: 100%;
+    max-width: 2374px;
+    height: 100%;
+    min-height: 4083px;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.background-tablet{
+    display: none;
+}
+.background-mobile{
+    display: none;
+}
+header{
+    width: 100%;
+    height: 153px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #101417;
+}
+.header-container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-container-tittle{
+    font-family: 'Mountains of Christmas';
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.header-container-menu{
+    width: 100%;
+    max-width: 658px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-container-menu-text{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header-container-menu-button{
+    width: 100%;
+    max-width: 178px;
+    height: 46px;
+    border-radius: 43px;
+    background: linear-gradient(180deg, #1CB981 0%, #076141 50%, #1CB981 100%);
+    color: #FFFFFF;
+    font-family: 'Michroma';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+    border: 0;
+}
+.header-container-list{
+    display: none;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 50px;
+    background-color: #101417;
+}
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.hero-container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.hero-container-tittle{
+    font-weight: 400;
+    font-size: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero-container-text{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #9F9F9F;
+}
+.hero-container-button{
+    width: 100%;
+    max-width: 441px;
+    min-height: 85px;
+    border-radius: 43px;
+    background: linear-gradient(180deg, #1CB981 0%, #076141 50%, #1CB981 100%);
+    font-family: 'Michroma';
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+}
+.slide1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(23, 164, 114, 0.2) 0%, rgba(8, 102, 69, 0.2) 100%);
+    padding: 50px 0;
+}
+.slide1-container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.slide1-container-tittle{
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.slide1-container-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 50px;
+}
+.slide1-container-content-box{
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.slide1-container-content-box-tittle{
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.slide1-container-content-box-text{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #9F9F9F;
+}
+.slide2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.slide2-container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.slide2-container-tittle{
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.slide2-container-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.slide2-container-content-box{
+    width: 100%;
+    max-width: 380px;
+    min-height: 470px;
+    padding: 50px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: #FFFFFF0D;
+    border: 1px solid #FFFFFF;
+}
+.slide2-container-content-box-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.slide2-container-content-box-content-img{
+    width: 90px;
+    height: 90px;
+}
+.slide2-container-content-box-content-tittle{
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.slide2-container-content-box-content-text{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+    color: #9F9F9F;
+}
+.slide2-container-content-box-button{
+    border: 0;
+    align-self: flex-end;
+    width: 100%;
+    max-width: 180px;
+    min-height: 46px;
+    border-radius: 43px;
+    background: linear-gradient(180deg, #1CB981 0%, #076141 50%, #1CB981 100%);
+    font-family: 'Michroma';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.slide2-container-content-box-4{
+    display: none;
+}
+
+.slide3{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(23, 164, 114, 0.2) 0%, rgba(8, 102, 69, 0.2) 100%);
+}
+.slide3-container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.slide3-container-tittle{
+    font-weight: 400;
+    font-size: 48px;    
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.slide3-container-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+.slide3-container-content-box{
+    width: 100%;
+    max-width: 383px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.slide3-container-content-box img{
+    width: 100px;
+    height: 100px;
+}
+.slide3-container-content-box p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.slide4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.slide4-container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.slide4-container-tittle{
+    font-weight: 400;
+    font-size: 48px;    
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.slide4-container-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.slide4-container-content-box{
+    width: 100%;
+    max-width: 380px;
+    padding: 61px 0;
+    border-radius: 20px;
+    background: #FFFFFF0D;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.slide4-container-content-box-e{
+    width: 95%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.slide4-container-content-box-e-tittle-top{
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.slide4-container-content-box-e-tittle-bottom{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.slide4-container-content-box-e-text{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #9F9F9F;
+}
+.slide4-container-content-box-4{
+    display: none;
+}
+.slide5{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(23, 164, 114, 0.2) 0%, rgba(8, 102, 69, 0.2) 100%);
+}
+.slide5-container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slide5-container-tittle{
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.slide5-container-text{
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #9F9F9F;
+}
+.slide5-container-button{
+    margin-top: 50px;
+    width: 95%;
+    max-width: 836px;
+    min-height: 85px;
+    border-radius: 43px;
+    border: 0;
+    background: linear-gradient(180deg, #1CB981 0%, #076141 50%, #1CB981 100%);
+    font-family: 'Michroma';
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer{
+    width: 100%;
+    padding: 50px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #101417;
+}
+.footer-container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.footer-container-logo{
+    font-family: 'Mountains of Christmas';
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer-container-menu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 10px;
+}
+.footer-container-menu p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

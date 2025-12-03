@@ -1,0 +1,223 @@
+@media(max-width: 1024px){
+    .background-tablet{
+        display: block;
+        position: absolute;
+        width: 100%;
+        max-width: 1520.502197265625px;
+        height: 100%;
+        min-height: 4043.255126953125px;
+        z-index: 10;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .background-desktop{
+        display: none;
+    }
+
+
+    header{
+        height: 110px;
+    }
+    .header-container{
+        max-width: 668px;
+    }
+    .header-container-tittle{
+        font-size: 36px;
+    }
+    .header-container-menu{
+        max-width: 409px;
+    }
+    .header-container-menu-text-none{
+        display: none;
+    }
+    .body{
+        gap: 30px;
+        padding: 30px 0;
+    }
+    .hero{
+        padding: 30px 0;
+    }
+    .hero-container{
+        width: 95%;
+        max-width: 668px;
+        gap: 30px;
+    }
+    .hero-container-tittle{
+        font-size: 48px;
+        padding: 10px;
+    }
+    .hero-container-text{
+        font-size: 22px;
+        padding: 0 10px;
+    }
+    .hero-container-button{
+        max-width: 340px;
+        min-height: 70px;
+        font-size: 28px;
+    }
+
+    .slide1{
+        padding: 30px 0;
+    }
+    .slide1-container{
+        max-width: 668px;
+        gap: 30px;
+    }
+    .slide1-container-content{
+        column-gap: 50px;
+        row-gap: 30px;
+    }
+    .slide1-container-tittle{
+        font-size: 36px;
+    }
+    .slide1-container-content-box{
+        max-width: 300px;
+        gap: 15px;
+    }
+    .slide1-container-content-box-tittle{
+        font-size: 22px;
+    }
+    .slide1-container-content-box-img-1{
+        width: 80px;
+        height: 80px;
+    }
+    .slide1-container-content-box-img-2{
+        width: 53.33332824707031px;
+        height: 80px;
+    }
+    .slide1-container-content-box-img-3{
+        width: 111.98263549804688px;
+        height: 80px;
+    }
+    .slide1-container-content-box-img-4{
+        width: 80px;
+        height: 80px;
+    }
+    .slide1-container-content-box-img-5{
+        width: 73.333251953125px;
+        height: 80px;
+    }
+    .slide2{
+        padding: 30px 0;
+    }
+    .slide2-container{
+        max-width: 668px;
+        gap: 30px;
+    }
+    .slide2-container-tittle{
+        font-size: 36px;
+    }
+    .slide2-container-content{
+        gap: 25px;
+    }
+    .slide2-container-content-box{
+        max-width: 320px;
+        min-height: 470px;
+        padding: 50px 30px 30px 30px;
+    }
+    .slide2-container-content-box-2{
+        display: none;
+    }
+    .slide2-container-content-box-3{
+        display: none;
+    }
+    .slide2-container-content-box-4{
+        display: flex;
+        order: 1;
+    }
+    .slide2-container-content-box-1{
+        order: 2;
+    }
+    .slide3{
+        padding: 30px 0;
+    }
+    .slide3-container{
+        max-width: 668px;
+        gap: 30px;
+    }
+    .slide3-container-tittle{
+        font-size: 36px;    
+    }
+    .slide3-container-content{
+        column-gap: 17px;
+        row-gap: 30px;
+        flex-wrap: wrap;
+    }
+    .slide3-container-content-box{
+        max-width: 300px; 
+    }
+    .slide3-container-content-box img{
+        width: 80px;
+        height: 80px;
+    }
+    .slide3-container-content-box p{
+        font-size: 22px;
+    }
+    .slide4{
+        padding: 30px 0;
+    }
+    .slide4-container{
+        max-width: 668px;
+        gap: 30px;
+    }
+    .slide4-container-tittle{
+        font-size: 36px;    
+    }
+    .slide4-container-content{
+        gap: 25px;
+    }
+    .slide4-container-content-box{
+        width: 100%;
+        max-width: 320px;
+        padding: 50px 0;
+        gap: 30px;
+    }
+    .slide4-container-content-box-e{
+        max-width: 280px;
+    }
+    .slide4-container-content-box-2{
+        display: none;
+    }
+    .slide4-container-content-box-3{
+        display: none;
+    }
+    .slide4-container-content-box-4{
+        display: flex;
+        order: 1;
+    }
+    .slide4-container-content-box-1{
+        order: 2;
+    }
+    .slide5{
+        padding: 30px 0;
+    }
+    .slide5-container{
+        max-width: 668px;
+    }
+    .slide5-container-tittle{
+        font-size: 36px;
+    }
+    .slide5-container-button{
+        margin-top: 30px;
+        max-width: 554px;
+        min-height: 61px;
+        font-size: 22px;
+    }
+
+    footer{
+        padding: 30px 0 50px 0;
+    }
+    .footer-container{
+        max-width: 668px;
+        gap: 30px;
+    }
+    .footer-container-menu{
+        column-gap: 30px;
+        row-gap: 10px;
+    }
+
+
+
+
+
+}
