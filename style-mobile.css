@@ -16,9 +16,6 @@
     header{
         height: 73px;
     }
-    .header-container{
-        max-width: 330px;
-    }
     .header-container-tittle{
         font-size: 24px;
     }
@@ -37,7 +34,6 @@
     }
     .hero-container{
         width: 95%;
-        max-width: 330px;
         gap: 15px;
     }
     .hero-container-tittle{
@@ -201,9 +197,6 @@
     }
     .slide5{
         padding: 20px 0;
-    }
-    .slide5-container{
-        max-width: 330px;
     }
     .slide5-container-tittle{
         font-size: 22px;
